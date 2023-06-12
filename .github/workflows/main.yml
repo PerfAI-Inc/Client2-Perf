@@ -1,0 +1,29 @@
+name: Create and publish a Docker image
+
+on:
+  push:
+    branches: ['main']
+
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
+jobs:
+  build-and-push-image:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+
+    steps:
+      - name: PerfAI Actions
+        uses: PerfAI-Inc/PerfAI-Action@v1.8.1
+        with:
+          apiSpecURL: 'https://petstore.swagger.io/v2/swagger.yaml'
+          apiBasePath: 'https://petstore.swagger.io/v3'
+          authUrl: 'https://api.examica.io/auth/credentials'
+          authBody: '"{"login":"tester@daniyals.ca","password":"Tester@786"}"'
+          licenseKey: 'your-license-key'
+      
+
+        
