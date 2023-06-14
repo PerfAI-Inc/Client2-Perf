@@ -21,9 +21,9 @@ jobs:
         with:
           apiSpecURL: 'https://api-dev.wehostvoip.io/openapi.json'
           apiBasePath: 'https://api.wehostvoip.io'
-          authUrl: 'https://api.wehostvoip.io/v1/login'
-          authBody: '"{"email":"tester@daniyals.ca","password":"Tester@786"}"'
-          authHeaders: ''
+          authUrl: ''
+          authBody: ''
+          authHeaders: 'Authorization: Basic dGVzdGVyQGRhbml5YWxzLmNhOlRlc3RlckA3ODY='
           licenseKey: 'your-license-key'
       
 
