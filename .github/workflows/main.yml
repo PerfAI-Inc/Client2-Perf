@@ -17,7 +17,7 @@ jobs:
 
     steps:
       - name: PerfAI Actions
-        uses: PerfAI-Inc/PerfAI-Action@v1.8.1
+        uses: PerfAI-Inc/PerfAI-Action@1.8.3
         with:
           apiSpecURL: 'https://proxyverse.io/swagger.json'
           apiBasePath: 'https://proxyverse.io'
