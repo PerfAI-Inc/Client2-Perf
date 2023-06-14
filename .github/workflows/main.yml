@@ -21,9 +21,9 @@ jobs:
         with:
           apiSpecURL: 'https://api.breadbutter.io/openapi.json'
           apiBasePath: 'https://api.breadbutter.io'
-          authUrl: ''
-          authBody: ''
-          authHeaders: '"{"options":{},"device_id":"64791fa53e72cfe6c2151562","auth_type":"password","user":{"password":"Tester@786"},"email_address":"tester@daniyals.ca","page_view_id":"6479201e3e72cfe6c2151589","ErrorDetails":true}"'
+          authUrl: 'https://api.breadbutter.io/apps/6128183c5a20bd2cb74d3998/authentications'
+          authBody: '"{"options":{},"device_id":"64791fa53e72cfe6c2151562","auth_type":"password","user":{"password":"Tester@786"},"email_address":"tester@daniyals.ca","page_view_id":"6479201e3e72cfe6c2151589","ErrorDetails":true}"'
+          authHeaders: ''
           licenseKey: 'your-license-key'
       
 
