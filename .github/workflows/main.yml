@@ -19,11 +19,11 @@ jobs:
       - name: PerfAI Actions
         uses: PerfAI-Inc/PerfAI-Action@v1.8.1
         with:
-          apiSpecURL: 'https://api-dev.wehostvoip.io/openapi.json'
-          apiBasePath: 'https://api.wehostvoip.io'
+          apiSpecURL: 'https://api.breadbutter.io/openapi.json'
+          apiBasePath: 'https://api.breadbutter.io'
           authUrl: ''
           authBody: ''
-          authHeaders: 'Authorization: Basic dGVzdGVyQGRhbml5YWxzLmNhOlRlc3RlckA3ODY='
+          authHeaders: '"{"options":{},"device_id":"64791fa53e72cfe6c2151562","auth_type":"password","user":{"password":"Tester@786"},"email_address":"tester@daniyals.ca","page_view_id":"6479201e3e72cfe6c2151589","ErrorDetails":true}"'
           licenseKey: 'your-license-key'
       
 
