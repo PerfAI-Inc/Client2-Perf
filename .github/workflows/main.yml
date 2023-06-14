@@ -19,11 +19,11 @@ jobs:
       - name: PerfAI Actions
         uses: PerfAI-Inc/PerfAI-Action@v1.8.1
         with:
-          apiSpecURL: 'https://rootly-heroku.s3.amazonaws.com/swagger/v1/swagger.json'
-          apiBasePath: ''
-          authUrl: ''
-          authBody: ''
-          authHeaders: 'Authorization: Basic dGVzdGVyQGRhbml5YWxzLmNhOlRlc3RlckA3ODY='
+          apiSpecURL: 'https://api-dev.wehostvoip.io/openapi.json'
+          apiBasePath: 'https://api.wehostvoip.io'
+          authUrl: 'https://api.wehostvoip.io/v1/login'
+          authBody: '"{"email":"tester@daniyals.ca","password":"Tester@786"}"'
+          authHeaders: ''
           licenseKey: 'your-license-key'
       
 
