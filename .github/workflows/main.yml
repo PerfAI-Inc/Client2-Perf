@@ -19,10 +19,11 @@ jobs:
       - name: PerfAI Actions
         uses: PerfAI-Inc/PerfAI-Action@v1.8.1
         with:
-          apiSpecURL: 'https://petstore.swagger.io/v2/swagger.yaml'
-          apiBasePath: 'https://petstore.swagger.io/v3'
-          authUrl: 'https://api.examica.io/auth/credentials'
-          authBody: '"{"login":"tester@daniyals.ca","password":"Tester@786"}"'
+          apiSpecURL: 'https://api.fortniteapi.io/openapi.json'
+          apiBasePath: 'https://api.fortniteapi.io'
+          authUrl: ''
+          authBody: ''
+          authHeaders: 'API Key: 0ff5d063-0ca4acd0-803bea84-957f9e21'
           licenseKey: 'your-license-key'
       
 
